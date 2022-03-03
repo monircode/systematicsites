@@ -1,0 +1,33 @@
+/*--------------------Tablet Layout----------------------*/
+
+@media only screen and (min-width:200px) and (max-width:991px){
+      .social_area {max-width: 465px; padding-top: 15px;}
+      .inner_menu {background: none;}
+      .inner_menu::after {display: none; min-height: auto;}
+      .mean-container .mean-nav {margin-top: 0; width: 75%;}
+      .inner_header {padding: 20px 0;}
+      #slider_area {margin-top: 0px;}
+      .inner_hero h2{font-size: 76px;}    
+}
+
+/*-------------------Mobile Layout----------------------*/
+
+@media only screen and (min-width:200px) and (max-width:480px){
+      .mini_menu {width: 100%; margin-bottom: 10px;}
+      .mini_menu ul, .social_area ul{text-align: center;}
+      .search_area, .logo_area{float: none; width: 230px; margin: 0 auto;}
+      .social_area ul li{margin: 0 5px;}
+      .inner_hero h2 {font-size: 25px;}
+      #hero_area {padding-bottom: 15px;}
+      #work_area, #footer_area {padding: 20px 0;}
+      .child_work {width: 98%;}
+      .child_testimonial h3 {padding: 15px 0px 15px 65px;}
+      .child_service .service_text {width: 75%;}
+      .child_work h2 {margin-left: 5px;}
+      .about_area img {margin: 5px;}
+      .child_work p {margin: 0 5px;}
+      .child_footer {width: 96%;}
+      .left_copyright {width: 100%;}
+      .right_copyright {width: 100%; text-align: left;}
+}
+
